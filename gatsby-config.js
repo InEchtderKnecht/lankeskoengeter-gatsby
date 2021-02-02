@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Lankes Koengeter Architekten`,
+    description: ``,
+    author: `Rupert Adlmaier`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -4,8 +4,8 @@ import Layout from '../components/Layout'
 
 const IndexPage = () => {
   return (
-    <Layout>
-      <h1>Index</h1>
+    <Layout title={`Wir bauen um…`}>
+      <p>Sie erreichen uns wie gewohnt unter <a href={`mailto:info@lankeskoengeter.de`}>info@lankeskoengeter.de</a></p>
     </Layout>
   )
 }

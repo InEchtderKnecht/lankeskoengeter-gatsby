@@ -1,6 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: "lankeskoengeter",
+    title: `Lankes Koengeter Architekten`,
   },
-  plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-react-helmet"],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        ssr: true,
+        minify: true,
+      },
+    },
+  ],
 };
